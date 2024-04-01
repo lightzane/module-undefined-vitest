@@ -1,0 +1,20 @@
+{
+  "name": "module-undefined-vitest",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "vitest",
+    "test:nowatch": "vitest run",
+    "test:cov": "vitest --coverage",
+    "test:cov:nowatch": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
+  }
+}

@@ -1,6 +1,8 @@
 {
   "name": "module-undefined-vitest",
   "version": "1.0.0",
+  "type": "module",
+  "module": "es2020",
   "scripts": {
     "start": "ts-node src/main.ts",
     "test": "jest src/main.test.ts && vitest run src/main.spec.ts"

@@ -1,5 +1,5 @@
 export function test() {
-  return module.filename;
+  return import.meta.url;
   // returns path/to/main.ts
 }
 

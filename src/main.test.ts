@@ -1,4 +1,3 @@
-import { it, expect } from 'vitest';
 import { test } from './main';
 
 it('should return module filename', () => {
@@ -6,4 +5,4 @@ it('should return module filename', () => {
   // npm start gives test() a defined value
 });
 
-// ! Will be executed ONLY by vitest (refer to "npm test" command in package.json)
+// ! Will be executed ONLY by jest (refer to "npm test" command in package.json)

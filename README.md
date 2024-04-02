@@ -6,7 +6,7 @@ https://github.com/vitest-dev/vitest/issues/5469
 
 The `module.filename` is undefined in `vitest` but not in `jest`.
 
-`npm start` and `npm test`
+`npm start` and `npm test` (will both execute `vitest` and `jest`)
 
 ### Reproduction
 

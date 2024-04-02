@@ -1,4 +1,4 @@
-import { it, expect, vi } from 'vitest';
+import { it, expect } from 'vitest';
 import { test } from './main';
 
 it('should return module filename', () => {

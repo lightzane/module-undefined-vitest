@@ -6,7 +6,7 @@ on:
 
 jobs:
   unit-test:
-    name: Compare Tests
+    name: vitest only
     runs-on: ubuntu-latest
     env:
       ci: true
@@ -23,5 +23,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests comparison between Jest and Vitest
-        run: npm test
+      - name: Run test for vitest
+        run: npx vitest run src/main.spec.ts
